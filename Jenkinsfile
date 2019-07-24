@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        bat 'https://github.com/balajireddy8898/spring4-mvc-example.git'
+        bat 'git clone https://github.com/balajireddy8898/spring4-mvc-example.git'
         bat 'https://github.com/balajireddy8898/spring4-mvc-example.git'
       }
     }
